@@ -17,6 +17,7 @@
 }
 
 .class-product, .class-cleaning, .class-fruit, .class-cold, .class-frozen, .class-bakery, .class-drinks{
+    position: relative;
     display: inline-block;
     max-width: 300px;
     margin: 10px 10px;
