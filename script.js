@@ -12,18 +12,6 @@ btn.addEventListener('click', () => {
     product.focus();
 });
 
-//Limpeza e Higiene//
-
-let cleaning = document.querySelector('#cleaning');
-let btn1 = document.querySelector('#btn1');
-let listCleaning = document.querySelector('#listCleaning');
-
-btn1.addEventListener('click', () => {   
-    item  = '<li>' + cleaning.value + '</li>';
-    listCleaning.innerHTML +=item;
-    cleaning.value = '';
-    cleaning.focus();
-});
 
 
 

@@ -3,16 +3,25 @@
 }
 
 body{
-    background-image: url(./image/listImage.jpg);
+    background: url(./image/listImage.jpg);
     background-size: cover;
+    z-index: 3;
     height: 100vh;
 }
+
 
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    text-decoration-line: underline;
     margin: 30px;
-    font-style: italic;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    opacity: 0.5;
+}
+
+a{
+    color: white;
 }
 
 .list li{
@@ -21,7 +30,8 @@ h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
     font-weight: bolder;
-    color: rgba(37, 20, 80, 0.647);
+    opacity: 0.5;
+    background-color: black;
 }
 
 .start{
@@ -60,18 +70,3 @@ footer{
     text-align: center;
 }
 
-@media screen and(min-width:700px){
-
-.list li{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 50px;
-}
-
-    
-footer{
-        text-align: center;
-}  
-    
-}
